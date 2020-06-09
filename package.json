@@ -1,0 +1,23 @@
+{
+  "name": "code-wars",
+  "version": "1.0.0",
+  "description": "",
+  "main": "6kyu-decodeDiagonal.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jason-nordheim/code-wars.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jason-nordheim/code-wars/issues"
+  },
+  "homepage": "https://github.com/jason-nordheim/code-wars#readme",
+  "devDependencies": {
+    "jest": "^26.0.1"
+  }
+}
