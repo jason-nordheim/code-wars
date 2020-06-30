@@ -25,7 +25,7 @@ To make things even clearer: the same example, but in a simplified view
   _ _ _ _ E
 `
 */ 
-export default function getDiagonalCode(grid) {
+function getDiagonalCode(grid) {
   let output = "";
   let initialPos = 0
   let lines = grid.split('\n')
@@ -34,3 +34,5 @@ export default function getDiagonalCode(grid) {
   }
   return output
 }
+
+module.exports = { getDiagonalCode }

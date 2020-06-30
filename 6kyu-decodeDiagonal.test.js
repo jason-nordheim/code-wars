@@ -1,4 +1,4 @@
-const {decodeDiagonal} = require('./6kyu-decodeDiagonal') 
+const { getDiagonalCode } = require("./6kyu-decodeDiagonal"); 
 
 test('grid maps to correct string', () => {
     let grid_1 = ( 
@@ -8,7 +8,7 @@ test('grid maps to correct string', () => {
         "L M N e P a F \n" +
         "X Z R P W"
         );
-    expect(decodeDiagonal(grid)).toBe("CodeWars")
+    expect(getDiagonalCode(grid_1)).toBe("CodeWars");
 })
 
 
